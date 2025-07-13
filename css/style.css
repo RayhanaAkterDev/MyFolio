@@ -8,6 +8,25 @@
     clear: both;
 }
 
+.section-heading {
+    color: #02918c;
+    font-weight: 800;
+    font-size: 2.875rem; /* 46px */
+    text-transform: uppercase;
+}
+
+.section-gap {
+    padding: 6.25rem 0; /* 100px */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
 /* ================================ */
 
 /* --- Set root font size --- */
@@ -103,6 +122,60 @@ html {
     text-transform: uppercase;
     background-color: #cfc91d;
     color: #0b1016;
+}
+
+/* ================================ */
+
+/* --- About Section Starts Here --- */
+.about-header img {
+    padding: 1rem 0 2rem;
+}
+
+.about-header p {
+    color: #7e8287;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem; /* 40px */
+}
+
+.about-header p > span {
+    font-weight: 600;
+    font-size: 1.5rem; /* 24px */
+}
+
+.about-card {
+    float: left;
+    width: 25%;
+    /* border: none; */
+    border-left: 1px solid #d9dbdb;
+    padding: 0 2.5rem; /* 40px */
+    padding-bottom: 2rem;
+    margin-top: 4.375rem; /* 70px */
+}
+
+.about-card:first-child {
+    border-left: none;
+}
+
+.about-card i {
+    font-size: 2rem;
+    color: #02918c;
+}
+
+.about-card h4 {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 1.5rem 0 1.25rem;
+}
+
+.about-card p {
+    color: #7e8287;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 400;
+    line-height: 1.25rem; /* 20px */
+    height: 6.25rem; /* 100px */
+    overflow: hidden;
 }
 
 /* ================================ */
