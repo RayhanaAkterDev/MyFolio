@@ -32,3 +32,33 @@ html {
 }
 
 /* ================================ */
+
+/* --- Navbar Section Starts Here --- */
+#navbar {
+    height: 3.75rem; /* 60px */
+    background-color: #02918c;
+}
+
+.nav-logo {
+    float: left;
+    line-height: 3.75rem; /* 60px */
+}
+
+.nav-menu {
+    float: right;
+    line-height: 3.75rem; /* 60px */
+}
+
+.nav-menu ul li {
+    float: left;
+    margin-left: 3.125rem; /* 50px */
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* ================================ */
