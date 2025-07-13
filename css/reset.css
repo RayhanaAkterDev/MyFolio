@@ -1,0 +1,68 @@
+/*
+    Author: Sumaya
+    Date: 2025-07-10
+    File: reset.css
+    Purpose: Reset browser default styles and apply consistent base styles.
+
+    - Removes default margin, padding
+    - Sets box-sizing to border-box
+    - Normalizes media, forms, links, and lists
+    - Applies base font and accessibility focus
+*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:focus {
+    outline: 2px solid #007acc;
+    outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
