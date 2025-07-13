@@ -62,3 +62,47 @@ html {
 }
 
 /* ================================ */
+
+/* --- HeroBanner Section Starts Here --- */
+
+#HeroBanner {
+    background: url(../assets/images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 210px 0;
+    color: #fff;
+}
+
+.banner-container h3 {
+    font-weight: 400;
+    font-size: 1.875rem; /* 30px */
+}
+
+.banner-container h1 {
+    font-size: 4rem; /* 64px */
+    font-weight: 800;
+    letter-spacing: 1.25rem; /* 20px */
+    text-transform: uppercase;
+}
+
+.banner-container p {
+    font-weight: 400;
+    font-size: 1.125rem; /* 18px */
+}
+
+.banner-container img {
+    margin: 2.875rem auto 3.25rem;
+}
+
+.banner-container .know_more_btn {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 800;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+
+/* ================================ */
