@@ -27,6 +27,10 @@
     margin: 0 auto;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 /* ================================ */
 
 /* --- Set root font size --- */
@@ -176,6 +180,54 @@ html {
     line-height: 1.25rem; /* 20px */
     height: 6.25rem; /* 100px */
     overflow: hidden;
+}
+
+/* ================================ */
+
+/* --- Service Section Starts Here --- */
+
+#service-section {
+    background: url(../assets/images/service_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.service-header img {
+    padding: 1.5rem 0 1rem;
+}
+
+.service-header p {
+    color: #7e8287;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem; /* 40px */
+    padding-right: 5rem; /* 80px */
+}
+
+.service-card {
+    float: left;
+    margin-top: 3.125rem; /* 50px */
+    padding-right: 5rem; /* 80px */
+}
+
+.service-card i {
+    font-size: 2rem;
+    color: #02918c;
+}
+
+.service-card h4 {
+    color: #7e8287;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.75rem 0 1rem;
+}
+
+.service-card p {
+    color: #7e8287;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 400;
+    line-height: 1.25rem; /* 20px */
 }
 
 /* ================================ */
