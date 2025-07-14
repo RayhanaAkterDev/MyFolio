@@ -15,8 +15,37 @@
     text-transform: uppercase;
 }
 
+.section-description {
+    color: #7e8287;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem; /* 40px */
+}
+
 .section-gap {
     padding: 6.25rem 0; /* 100px */
+}
+
+.section-heading-shape-gap {
+    padding: 1.5rem 0 1rem;
+}
+
+.card-heading {
+    color: #7e8287;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.card-description {
+    color: #7e8287;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 400;
+    line-height: 1.25rem; /* 20px */
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: #02918c;
 }
 
 .text-center {
@@ -135,13 +164,6 @@ html {
     padding: 1rem 0 2rem;
 }
 
-.about-header p {
-    color: #7e8287;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2.5rem; /* 40px */
-}
-
 .about-header p > span {
     font-weight: 600;
     font-size: 1.5rem; /* 24px */
@@ -150,7 +172,6 @@ html {
 .about-card {
     float: left;
     width: 25%;
-    /* border: none; */
     border-left: 1px solid #d9dbdb;
     padding: 0 2.5rem; /* 40px */
     padding-bottom: 2rem;
@@ -161,23 +182,11 @@ html {
     border-left: none;
 }
 
-.about-card i {
-    font-size: 2rem;
-    color: #02918c;
-}
-
 .about-card h4 {
-    color: #7e8287;
-    font-size: 16px;
-    font-weight: 800;
     padding: 1.5rem 0 1.25rem;
 }
 
 .about-card p {
-    color: #7e8287;
-    font-size: 0.75rem; /* 12px */
-    font-weight: 400;
-    line-height: 1.25rem; /* 20px */
     height: 6.25rem; /* 100px */
     overflow: hidden;
 }
@@ -193,15 +202,7 @@ html {
     background-repeat: no-repeat;
 }
 
-.service-header img {
-    padding: 1.5rem 0 1rem;
-}
-
 .service-header p {
-    color: #7e8287;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2.5rem; /* 40px */
     padding-right: 5rem; /* 80px */
 }
 
@@ -211,37 +212,14 @@ html {
     padding-right: 5rem; /* 80px */
 }
 
-.service-card i {
-    font-size: 2rem;
-    color: #02918c;
-}
-
 .service-card h4 {
-    color: #7e8287;
-    font-size: 1rem;
-    font-weight: 800;
     padding: 0.75rem 0 1rem;
-}
-
-.service-card p {
-    color: #7e8287;
-    font-size: 0.875rem; /* 14px */
-    font-weight: 400;
-    line-height: 1.25rem; /* 20px */
 }
 
 /* ================================ */
 
 /* --- Work Section Starts Here --- */
-.work-header img {
-    padding: 1.5rem 0 1rem;
-}
-
 .work-header p {
-    color: #7e8287;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2.5rem; /* 40px */
     margin-bottom: 4.375rem; /* 70px */
 }
 
@@ -289,15 +267,8 @@ html {
 /* ================================ */
 
 /* --- Footer Contact Starts Here --- */
-.footer-header img {
-    padding: 1.5rem 0 1rem;
-}
 
 .footer-header p {
-    color: #7e8287;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2.5rem; /* 40px */
     margin-bottom: 4.375rem; /* 70px */
 }
 
