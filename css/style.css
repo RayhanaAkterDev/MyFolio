@@ -287,3 +287,81 @@ html {
 }
 
 /* ================================ */
+
+/* --- Footer Contact Starts Here --- */
+.footer-header img {
+    padding: 1.5rem 0 1rem;
+}
+
+.footer-header p {
+    color: #7e8287;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem; /* 40px */
+    margin-bottom: 4.375rem; /* 70px */
+}
+
+.footer-form {
+    padding: 3.125rem 0 4.375rem; /* 50px 0 70px */
+    background-color: #0b0b0b;
+}
+
+.footer-form input,
+label,
+textarea {
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-form form > input {
+    width: 637px;
+    height: 50px;
+    outline: none;
+    border-bottom: 1px solid #898989;
+    margin: 0 auto 3.125rem; /* 50px */
+}
+
+.footer-form form > label {
+    color: #7e8287;
+    font-size: 1rem;
+}
+
+.footer-form form > textarea {
+    width: 917px;
+    height: 70px;
+    resize: none;
+    outline: none;
+    margin: 0.75rem auto 4.25rem; /* 12px auto 88px */
+    text-align: left;
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    padding: 0.5rem 0;
+}
+
+.footer-form form > button {
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 12.5rem; /* 200px */
+    height: 3.125rem; /* 50px */
+    cursor: pointer;
+}
+
+.footer-btm {
+    height: 5rem; /* 80px */
+    background-color: #000;
+}
+
+.footer-btm p {
+    color: #7e8287;
+    font-weight: 400;
+    font-size: 0.75rem; /* 12px */
+    line-height: 5rem;
+}
+
+/* ================================ */
