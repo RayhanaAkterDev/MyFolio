@@ -1,26 +1,44 @@
 # MyFolio
 
-MyFolio is a clean, beginner-friendly personal portfolio website designed to showcase my profile, skills, projects, and contact information. Built with semantic HTML and CSS, this repository contains the initial basic version. Future updates will introduce responsiveness and advanced styling, making it ideal for frontend learners practicing real-world layouts.
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
 
-## 📸 GitHub Code & Live Preview
-
-🔗 [MyFolio GitHub Repository](https://github.com/RayhanaAkterDev/Frontend-Bootcamp-2.0/tree/main/08-projects/01-html-css-basic/01-my-folio)  
-🌍 [Live Preview on Netlify](https://my-web-folio.netlify.app/)
+MyFolio is a clean, beginner-friendly personal portfolio website designed to showcase my profile, skills, projects, and contact information. Built with semantic HTML and CSS, this repository contains the **initial static version**. Future updates will introduce **responsiveness** and **advanced styling**, making it ideal for frontend learners practicing real-world layouts.
 
 ---
 
-## ✨ Features
+## 📸 GitHub Code & Live Preview
 
-- Reusable and organized folder structure
-- Clean and modern layout using CSS
-- Fully responsive design
+🔗 [View Source Code on GitHub](https://github.com/RayhanaAkterDev/MyFolio.git)  
+🌍 [View Live Site on GitHub Pages](https://rayhanaakterdev.github.io/MyFolio/)
+
+---
+
+## ✨ Features (v1.0.0)
+
+- Semantic and accessible HTML
+- Clean, organized folder structure
+- Custom styling with CSS
 - Includes the following sections:
   - Hero
   - About Me
   - Services
-  - Projects
-  - Contact Form
+  - My Work
+  - Contact
   - Footer
+
+---
+
+## 📌 Project Status
+
+✅ **v1.0.0 – Static Version Completed**  
+🔜 **Next:** Build a responsive version in a new branch `responsive-folio`
+
+---
+
+## 📦 Release History
+
+- **v1.0.0** – Initial static version  
+  Built with only HTML and CSS. All major sections are completed with a clean layout and basic styles.
 
 ---
 
@@ -34,7 +52,6 @@ myfolio/
 ├── css/
 │   ├── style.css
 │   ├── reset.css
-│   └── responsive.css
 ├── index.html
 └── README.md
 ```
